@@ -3,3 +3,37 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #121212;
+    color: white;
+    a {
+        color: white;
+        transition: 100ms;
+    }
+    a:hover {
+        filter: brightness(0.9);
+        transform: scale(1.1);
+    }
+}
+
+header {
+    display: flex;
+    background-color: #339A44;
+    height: 3rem;
+    align-items: center;
+    justify-content: space-around;
+    p {
+        font-size: 1.5rem;
+    }
+    div, nav {
+        display: flex;
+        gap: 1rem;
+    }
+    nav a {
+        background-color: #257032;
+        padding: 5px 10px;
+        border-radius: 10px;
+        text-decoration: none;
+    }
+}

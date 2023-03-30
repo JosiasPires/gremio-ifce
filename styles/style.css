@@ -2,4 +2,38 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  color: white;
+}
+body a {
+  color: white;
+  transition: 100ms;
+}
+body a:hover {
+  filter: brightness(0.9);
+  transform: scale(1.1);
+}
+
+header {
+  display: flex;
+  background-color: #339A44;
+  height: 3rem;
+  align-items: center;
+  justify-content: space-around;
+}
+header p {
+  font-size: 1.5rem;
+}
+header div, header nav {
+  display: flex;
+  gap: 1rem;
+}
+header nav a {
+  background-color: #257032;
+  padding: 5px 10px;
+  border-radius: 10px;
+  text-decoration: none;
 }/*# sourceMappingURL=style.css.map */
