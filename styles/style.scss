@@ -10,10 +10,10 @@ body {
     a {
         color: white;
         transition: 100ms;
+        text-decoration: none;
     }
     a:hover {
         filter: brightness(0.9);
-        transform: scale(1.1);
     }
 }
 
@@ -30,10 +30,39 @@ header {
         display: flex;
         gap: 1rem;
     }
-    nav a {
+    a {
         background-color: #257032;
         padding: 5px 10px;
         border-radius: 10px;
-        text-decoration: none;
+    }
+    a:hover {
+        transform: scale(1.1);
+    }
+}
+
+main {
+    padding: 5rem;
+    display: flex;
+    justify-content: space-around;
+    .text {
+        height: 70%;
+    }
+    p {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        a {
+            border: 1px solid white;
+            border-radius: 10px;
+            text-align: center;
+            padding: 1rem;
+        }
+        a:hover {
+            background-color: rgba(255, 255, 255, 0.1);
+        }
     }
 }
