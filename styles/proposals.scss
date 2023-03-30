@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -7,6 +9,7 @@
 body {
     background-color: #121212;
     color: white;
+    font-family: 'Josefin Sans', sans-serif;
     a {
         color: white;
         transition: 100ms;
