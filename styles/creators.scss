@@ -100,6 +100,9 @@ main {
         align-items: center;
         gap: 1rem;
         width: 20rem;
+        box-shadow: 0 0 15px rgb(255, 255, 255, 0.2);
+        border-radius: 15px;
+        padding: 1rem;
         a {
                     border: 1px solid white;
                     border-radius: 10px;
