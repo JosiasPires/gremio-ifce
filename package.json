@@ -1,0 +1,27 @@
+{
+  "name": "gremio-ifce",
+  "version": "1.0.0",
+  "description": "Uma ferramente onde os alunos podem mandar propostas para o grêmio estudantil.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/JosiasPires/gremio-ifce.git"
+  },
+  "keywords": [
+    "ifce",
+    "crato",
+    "gremio"
+  ],
+  "author": "JosiasPires",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/JosiasPires/gremio-ifce/issues"
+  },
+  "homepage": "https://github.com/JosiasPires/gremio-ifce#readme",
+  "dependencies": {
+    "sass": "^1.60.0"
+  }
+}
