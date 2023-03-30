@@ -49,6 +49,7 @@ main {
     gap: 2rem;
     .cards {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         width: 100%;
         gap: 4rem;
