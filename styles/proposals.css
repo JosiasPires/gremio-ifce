@@ -27,19 +27,55 @@ header {
 header p {
   font-size: 1.5rem;
 }
-header div, header nav {
+header div, header .navmenu {
   display: flex;
   gap: 1rem;
 }
-header a {
+header .navmenu a {
   background-color: #257032;
   padding: 5px 10px;
   border-radius: 10px;
 }
-header a:hover {
+header .navmenu a:hover {
   transform: scale(1.1);
 }
+header .menu-icon {
+  display: none;
+  cursor: pointer;
+  z-index: 10;
+}
 
+.popup {
+  display: none;
+  position: absolute;
+  width: 100vw;
+  height: 100px;
+  height: calc(var(--vh));
+  flex-direction: column;
+}
+.popup a {
+  background-color: #339A44;
+  width: 100%;
+  height: 20%;
+  text-align: center;
+  padding-top: 10vh;
+}
+
+@media only screen and (max-width: 815px) {
+  header p {
+    display: none;
+  }
+  header .navmenu {
+    display: none;
+  }
+  header .menu-icon {
+    display: block;
+  }
+  main {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
 main {
   padding: 5rem;
   padding-top: 3rem;
@@ -48,12 +84,16 @@ main {
   align-items: center;
   gap: 2rem;
 }
+main h1 {
+  text-align: center;
+}
 
 .proposals {
   display: flex;
   gap: 1rem;
   width: 100%;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 details {
@@ -63,7 +103,7 @@ details {
 details summary {
   font-weight: bold;
   background-color: #339A44;
-  padding: 0.5rem;
+  padding: 0.5rem 3rem;
   cursor: pointer;
   border-radius: 10px 10px 0 0;
 }
