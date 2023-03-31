@@ -112,4 +112,12 @@ main .card a {
 }
 main .card img {
   width: 80%;
+  transition: 100ms ease-in-out;
+}
+main .card:hover img {
+  transform: scale(1.05);
+}
+main .card:hover a {
+  color: #339A44;
+  border: 1px solid #339A44;
 }/*# sourceMappingURL=creators.css.map */
